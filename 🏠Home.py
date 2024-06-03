@@ -22,3 +22,12 @@ and sustainable growth.
 - Data-Driven Decisions: Leverage comprehensive customer data to inform strategic initiatives.
 - Proactive Retention: Take preemptive measures to retain valuable customers and foster long-term loyalty.
 """)
+
+st.markdown("Here is my new code for this application")
+
+st.write("Hello world")
+status = st.radio("Select gender:" ("male", "female"))
+if (status == "male"):
+    st.success("male")
+else:
+    st.success("female")
