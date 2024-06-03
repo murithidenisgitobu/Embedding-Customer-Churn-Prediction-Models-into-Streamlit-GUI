@@ -24,3 +24,10 @@ and sustainable growth.
 """)
 
 st.markdown("Here is my new code for this application")
+
+st.write("Hello world")
+status = st.radio("Select gender:" ("male", "female"))
+if (status == "male"):
+    st.success("male")
+else:
+    st.success("female")
